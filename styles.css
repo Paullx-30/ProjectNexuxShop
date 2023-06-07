@@ -1,0 +1,125 @@
+
+  body {
+    background-color: rgb(28, 31, 46);
+  }
+
+  header {
+    background-color: rgba(28, 31, 46, 0.726);
+    height: 140px;
+    display: flex;
+    border: 2px solid  #ec9615;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    padding-left: 0px; /* Adiciona um espaçamento à esquerda para separar do canto */
+  }
+  nav {
+    display: flex;
+  }
+
+  .logo img {
+      width: 130px; /* Defina o tamanho desejado */
+      height: auto; /* Mantém a proporção da imagem */
+      padding: 5px; /* Adiciona um espaço interno de 5px */
+    
+    
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+    gap: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .menu li a {
+  color: rgba(133, 144, 201, 0.726);
+  text-decoration: none;
+  transition: border-bottom 0.5s ease-in-out;
+  border: 1px solid transparent; /* Adiciona uma borda transparente */
+  padding: 5px 10px; /* Adiciona um espaçamento interno para o link */
+}
+
+
+h2 {
+  display: flex;
+  list-style: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: underline;
+  color: rgba(133, 144, 201, 0.726);
+  text-align: center;
+  justify-content: center;
+}
+
+
+.menu li a:hover {
+  border-color: #daa923; /* Altera a cor da borda para verde (#4CAF50) */
+}
+
+  .menu li a:hover {
+    color: #ec9615;
+  }
+  
+  
+  .content {
+    padding: 20px;
+  } 
+  .content table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+  }
+
+  .content table td {
+    padding: 10px;
+    border: 2px solid #ce7c01;
+    text-align: center;
+  }
+
+
+  .links{
+    color: #e46a06;
+  }
+
+  .content table img {
+    width: 100%;
+    height: auto;
+  }
+
+  .content table td p {
+    color:  #daa923; /* Define a cor do texto para vermelho */
+    font-weight: bold;
+  }
+  
+  footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid  #ec9615;
+    border-radius: 5px;
+  }
+  
+   p {
+    color: rgba(133, 144, 201, 0.726);
+    text-align: justify;
+  }
+
+  .corteP{
+    text-decoration: line-through;
+  }
+
+  
